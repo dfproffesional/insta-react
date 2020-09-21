@@ -1,0 +1,69 @@
+/* Header Principal */
+.header-principal{
+  display: grid;
+  grid-template-columns: 360px 215px 360px;
+  grid-template-rows: 54px;
+  justify-content: center;
+  column-gap: 10px;
+  background: #ffff;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.header-principal .header__nav{
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-principal .header__nav a img{
+  height: 25px;
+}
+
+.header-principal .nav__container{
+  width: 222px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-principal input{
+  box-sizing: border-box;
+  padding: 7px;
+  background: #FAFAFA;
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+  font-size: 12px;
+  margin-bottom: 7px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.content-post{
+  display: grid;
+  grid-template-columns: 614px 293px;
+  grid-template-rows: auto;
+  justify-content: center;
+  column-gap: 30px;
+  
+}
+
+@media only screen and (max-width: 1250px) {
+  .header-principal{
+    grid-template-columns: 270px 215px 270px;
+  }
+  .content-post{
+    grid-template-columns: 524px 203;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .header-principal{
+    grid-template-columns: 180px 214px 180px;
+  }
+  .content-post{
+    grid-template-columns: 614px;
+  }
+  .content-post .right{
+    display: none;
+  }
+}
+

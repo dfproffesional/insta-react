@@ -1,0 +1,48 @@
+.list-posts {
+    margin: 24px 0 0;
+}
+.list-posts figure{
+    margin: 0;
+    padding: 0;
+}
+.list-posts .post{
+    margin: 0 0 48px;
+}
+.list-posts .post__title{
+    background: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #dbdbdb;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 16px;
+    box-sizing: border-box;
+    
+}
+.list-posts .post__image{
+    width: 99.8%;
+    height: 614px;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+}
+.list-posts  .post__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.list-posts  .post__feed{
+    background: white;
+    border: 1px solid #dbdbdb;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin:  0 0 24px;
+    height: 160px;
+    padding: 16px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.list-posts  .post__feed p{
+    line-height: 25px;
+}

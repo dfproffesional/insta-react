@@ -1,0 +1,25 @@
+.login__signup{
+  background: #ffff;
+  border: 1px solid #dbdbdb;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.login__signup strong{
+  margin: 0 5px;
+  color: #4A95F6;
+}
+
+.login__signup a{
+  text-decoration:none;
+  color:black;
+}
+
+@media screen and (max-width: 450px) {
+  .login__signup{
+    background: none;
+    border: none;
+  }
+}

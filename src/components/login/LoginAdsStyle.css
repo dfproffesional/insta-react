@@ -1,0 +1,24 @@
+/* Container */
+.login__ads{
+  box-sizing: border-box;
+  /* padding: 20px 0 0; */
+  height: 100%;
+}
+/* Style P */
+.login__ads p{margin: 0 0 10px;text-align: center;}
+/* Style Ads logos container*/
+.login__ads .ad__apps{
+    display: flex;
+    justify-content: center;
+}
+/* Images ads */
+.login__ads .ad__apps img{
+  width: 160px;
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 875px) {
+  .login__ads .ad__apps{
+    flex-wrap: wrap;
+  }
+}

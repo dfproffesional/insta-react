@@ -1,0 +1,98 @@
+/* login condainer */
+.login__form{
+  border: 1px #DBDBDB solid;
+  background: white;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+}
+
+/* Encabezado */
+.login__form h1{
+  text-align: center;
+}
+
+/* Form Container */
+.login__form .form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  margin: 24px 0 0;
+}
+
+/* Inptu Styles */
+.login__form input{
+  box-sizing: border-box;
+  max-width: 266px;
+  width: 100%;
+  display: block;
+  padding: 9px 0 7px 8px;
+  background: #FAFAFA;
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+  font-size: 12px;
+  margin-bottom: 7px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+/* Division Style */
+.login__form .division{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  max-width: 266px;
+  width: 100%;
+  margin: 25px 40px 18px;
+}
+
+/* Division Line */
+.login__form .divison__line{
+  color:red;
+  margin: 10px;
+  width: 40%;
+  border-bottom: 1px solid #dbdbdb;
+ 
+}
+
+/* Box Facebook Signup */
+.login__form .facebook{
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+}
+.login__form .facebook::before{
+  content: url('../../assets/icons/fb-icon.png');
+  margin: 0 5px;
+}
+
+/* Signup Button style */
+.login__form .button{
+  text-align: center;
+  max-width: 266px;
+  width: 100%;
+  border:0;
+  padding: 7px 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+  background: #B2DFFC;
+  margin-top:10px;
+}
+/* Password? */
+.login__form a{
+  margin: 20px 0 0 0;
+  font-weight: 400;
+  text-decoration:none;
+  color: black;
+}
+
+@media screen and (max-width: 450px) {
+  .login__form{
+    border: none;
+    background: none;
+  }
+}

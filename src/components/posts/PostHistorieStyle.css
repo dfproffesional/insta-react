@@ -1,0 +1,60 @@
+.content-post .list-histories{
+    display: flex;
+    background:white;
+    border: 1px solid #dbdbdb;
+    padding: 16px 10px;
+    align-items: center;
+    margin: 24px 0 0;
+    border-radius: 3px;
+    overflow-x: auto;
+
+  }
+
+
+    .content-post .history-item{
+        width: 70px;
+        height: 70px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2px;
+        box-sizing: border-box;
+        margin: 0 7px 0;
+        
+    }
+  .content-post .list-histories .item__box{
+      position: relative;
+      border-radius: 50%;
+      overflow: hidden;
+      height: 58px;
+      width: 58px;
+      background-color: red;
+  }
+  .content-post .list-histories .item__box img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  
+  .content-post .history-item canvas{
+      position: absolute;
+      left:0;
+      top: 0;
+  }
+  .content-post .list-histories figure{
+    margin: 0;
+    padding:0;
+  }
+
+  @media only screen and (max-width: 640px) {
+    .content-post .list-histories{
+      background: none;
+      width: 100%;
+      border: none;
+      margin: 0;
+      position: relative;
+     
+    }
+
+  }

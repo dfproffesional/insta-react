@@ -1,0 +1,13 @@
+.header__logo{
+    display: flex;
+    align-items: center;
+}
+.header__logo img{
+    height: 29px;
+}
+
+.header__search{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
