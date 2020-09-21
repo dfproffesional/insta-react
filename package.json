@@ -1,11 +1,8 @@
 {
-  "name": "react",
+  "name": "instagram-practice",
   "version": "1.0.0",
-  "description": "React example starter project",
-  "keywords": [
-    "react",
-    "starter"
-  ],
+  "description": "It is my First Practice to React.",
+  "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "react": "16.13.1",
